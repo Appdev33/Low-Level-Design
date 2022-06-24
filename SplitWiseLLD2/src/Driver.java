@@ -21,7 +21,7 @@ public class Driver {
         expenseManager.addUser(new User("u4", "User4", "mock-interviews@workat.tech", "9876543210"));
 
         
-        System.out.print("hello");
+//        System.out.print("hello");
         Scanner scanner = new Scanner(System.in);
         while (true) {
             String command = scanner.nextLine();
