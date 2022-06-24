@@ -1,0 +1,40 @@
+INSTAGRAM
+Create Instagram Home Feed - 
+Users should be able to make a post
+Users should be able to get his latest posts.
+Users should be able to get the latest posts of people he follows.
+User Should be able to follow other users
+
+User 	Following
+U1	U2, U3
+U2	U3
+U3	U4
+U4	NONE
+
+Find the feed for all Users.
+
+
+makePost U1 First "This is First Post"
+makePost U1 Second "This is Fdsast Post"
+makePost U2 third "This is Fifsdft Post"
+makePost U1 Fout "This is Ffsdst Post"
+makePost U4 Fit "This is Ffsdt Post"
+makePost U1 Fst "This is fsdfs Post"
+makePost U3 First "This is First Post"
+makePost U1 Second "This is Fdsast Post"
+makePost U1 third "This is Fifsdft Post"
+makePost U4 Fout "This is Ffsdst Post"
+makePost U1 Fit "This is Ffsdt Post"
+makePost U2 Fst "This is fsdfs Post"
+makePost U2 First "This is First Post"
+makePost U1 Second "This is Fdsast Post"
+makePost U3 third "This is Fifsdft Post"
+makePost U1 Fout "This is Ffsdst Post"
+makePost U2 Fit "This is Ffsdt Post"
+makePost U1 Fst "This is fsdfs Post"
+doFollow U1 U2
+doFollow U1 U3
+doFollow U2 U1
+doFollow U3 U4
+doFollow U3 U2
+getfollowerPosts U2
